@@ -1,0 +1,50 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-counter {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    line-height: 60px;
+}
+
+.container-Symbols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    font-weight: 300;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.count {
+    font-size: 40px;
+}
+
+.random {
+    padding: 10px 20px;
+    width: 100px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reset {
+    padding: 10px 20px;
+    width: 100px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
